@@ -1,0 +1,52 @@
+.header__inner {
+    display: flex;
+    align-items: center;
+}
+
+.header__logo {
+    width: 80px;
+    height: 25px;
+    flex-shrink: 0;
+}
+
+.header__action-button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.header__inner {
+    height: 56px;
+}
+.header__nav {
+    padding: 8px 0;
+    margin-right: 100px;
+}
+.header__list {
+    display: flex;
+}
+.header__item {
+    margin-right: 28px;
+}
+.header__item:last-child {
+    margin-right: 0;
+}
+
+.header__actions {
+    margin-left: auto;
+}
+
+.icon__instagram {
+    margin-right: 28px;
+    width: 20px;
+    height: 20px;
+}
+.icon__search {
+    margin-right: 28px;
+    width: 19px;
+    height: 19px;
+}
+.icon__cart {
+    width: 15px;
+    height: 22px;
+}
