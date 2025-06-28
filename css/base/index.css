@@ -1,0 +1,61 @@
+@import url("reset.css");
+@import url("fonts.css");
+
+html,
+body {
+    height: 100%;
+}
+
+.header {
+    flex-shrink: 0;
+}
+
+.main {
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+.footer {
+    flex-shrink: 0;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif, Arial;
+    font-weight: 400;
+    font-size: 17px;
+    color: #000000;
+}
+
+.container {
+    max-width: 1120px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 24px;
+}

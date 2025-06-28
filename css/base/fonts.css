@@ -1,9 +1,13 @@
+/* Використано по два файли woff для кращої сумісності, як я зрозумів,
+там де двійка в кінці, це типу друга версія, в якій покращили стиснення приблизно на 30%,
+але вона підтримується трохи меншою кількістю старих браузерів */
+
 @font-face {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    src: url("../fonts/Roboto/Roboto-Regular.woff2") format("woff2"),
-         url("../fonts/Roboto/Roboto-Regular.woff") format("woff");
+    src: url("../../fonts/Roboto/Roboto-Regular.woff2") format("woff2"),
+        url("../../fonts/Roboto/Roboto-Regular.woff") format("woff");
     font-display: swap;
 }
 
@@ -11,7 +15,7 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    src: url("../fonts/Roboto/Roboto-Bold.woff2") format("woff2"),
-         url("../fonts/Roboto/Roboto-Bold.woff") format("woff");
+    src: url("../../fonts/Roboto/Roboto-Bold.woff2") format("woff2"),
+        url("../../fonts/Roboto/Roboto-Bold.woff") format("woff");
     font-display: swap;
 }
