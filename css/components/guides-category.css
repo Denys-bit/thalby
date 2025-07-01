@@ -1,0 +1,50 @@
+.guides-category {
+    margin-top: 90px;
+}
+
+.guides-category__cards {
+
+}
+
+.guides-category__card {
+    display: flex;
+    padding: 76px 0 52px 0;
+}
+
+.guides-category__card-image {
+    width: 385px;
+    height: 525px;
+}
+
+.guides-category__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+    max-width: 520px;
+}
+.guides-category__text--right {
+    padding-left: 0;
+    padding-right: 50px;
+    text-align: right;
+    max-width: 514px;
+}
+
+.guides-category__title {
+    font-weight: 700;
+}
+
+.guides-category__description {
+    font-size: 36px;
+    padding-top: 32px;
+}
+
+.guides-category__button {
+    border: none;
+    font-weight: 700;
+    text-decoration: underline;
+    font-size: 17px;
+    cursor: pointer;
+    align-self: flex-start;
+    padding-top: 40px;
+}
