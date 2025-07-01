@@ -1,11 +1,9 @@
 .hero__section {
-    border: 1px solid red;
 }
 
 .hero__inner {
     display: flex;
     align-items: center;
-    border: 1px solid red;
 }
 
 .hero__block-left {
