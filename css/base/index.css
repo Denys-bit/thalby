@@ -27,9 +27,6 @@ a {
 
 
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     font-family: 'Roboto', sans-serif, Arial;
     font-weight: 400;
     font-size: 17px;
