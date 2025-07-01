@@ -1,0 +1,43 @@
+.hero__section {
+    border: 1px solid red;
+}
+
+.hero__inner {
+    display: flex;
+    align-items: center;
+    border: 1px solid red;
+}
+
+.hero__block-left {
+    
+}
+
+.hero__title {
+    
+}
+.hero__title span {
+    display: block;
+    margin-bottom: 42px;
+}
+
+.hero__subtitle {
+    font-size: 24px;
+    margin-bottom: 26px;
+}
+
+.hero__button {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 8px 23px;
+    border-radius: 100px;
+    font-weight: 400;
+}
+
+.hero__block-right {
+
+}
+
+.hero__image {
+    position: relative;
+    left: 110px;;
+}
