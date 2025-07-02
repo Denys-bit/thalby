@@ -9,7 +9,7 @@
 
 .bestseller__cards {
     display: flex;
-
+    justify-content: center;
     padding-top: 52px;
 }
 
