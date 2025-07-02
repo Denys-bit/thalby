@@ -2,8 +2,23 @@
     margin-top: 90px;
 }
 
-.guides-category__cards {
+.guides-category__card:nth-child(2) {
+    position: relative;
+    z-index: 1;
+}
+.guides-category__card:nth-child(2)::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    width: 100vw;
+    height: 100%;
+    background: #CCCCCC;
+    z-index: -1;
+}
 
+.guides-category__cards {
 }
 
 .guides-category__card {
@@ -22,12 +37,16 @@
     justify-content: center;
     padding-left: 50px;
     max-width: 520px;
+
 }
 .guides-category__text--right {
     padding-left: 0;
     padding-right: 50px;
     text-align: right;
     max-width: 514px;
+}
+.guides-category__button--right {
+    margin-left: auto;
 }
 
 .guides-category__title {
@@ -41,6 +60,7 @@
 
 .guides-category__button {
     border: none;
+    background-color: transparent;
     font-weight: 700;
     text-decoration: underline;
     font-size: 17px;
