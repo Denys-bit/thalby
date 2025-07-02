@@ -40,6 +40,18 @@
     letter-spacing: 0.6px;
 }
 
+.interviews__card:nth-child(1) .interviews__card-bio {
+    max-width: 252px;
+}
+
+.interviews__card:nth-child(2) .interviews__card-bio {
+    max-width: 164px;
+}
+
+.interviews__card:nth-child(3) .interviews__card-bio {
+    max-width: 214px;
+}
+
 .interviews__card-bio {
     padding-top: 40px;
     font-size: 19px;
