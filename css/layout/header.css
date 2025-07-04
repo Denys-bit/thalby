@@ -18,16 +18,20 @@
 .header__inner {
     height: 56px;
 }
+
 .header__nav {
     padding: 8px 0;
     margin-right: 100px;
 }
+
 .header__list {
     display: flex;
 }
+
 .header__item {
     margin-right: 28px;
 }
+
 .header__item:last-child {
     margin-right: 0;
 }
@@ -41,12 +45,44 @@
     width: 20px;
     height: 20px;
 }
+
 .icon__search {
     margin-right: 28px;
     width: 19px;
     height: 19px;
 }
+
 .icon__cart {
     width: 15px;
     height: 22px;
+}
+
+.header__burger-button {
+    display: none;
+    width: 19px;
+    height: 19px;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .header__burger-button {
+        display: block;
+    }
+
+    .header__nav {
+        display: none;
+
+    }
+
+    .header__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header__actions {
+        margin: 0;
+    }
 }
