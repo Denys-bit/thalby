@@ -1,18 +1,14 @@
-.hero__section {
-}
+.hero__section {}
 
 .hero__inner {
     display: flex;
     align-items: center;
 }
 
-.hero__block-left {
-    
-}
+.hero__block-left {}
 
-.hero__title {
-    
-}
+.hero__title {}
+
 .hero__title span {
     display: block;
     margin-bottom: 42px;
@@ -31,11 +27,9 @@
     font-weight: 400;
 }
 
-.hero__block-right {
+.hero__block-right {}
 
-}
-
-.hero__image {
+/* .hero__image {
     position: relative;
-    left: 110px;;
-}
+    left: 110px;
+} */
