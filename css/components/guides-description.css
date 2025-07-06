@@ -16,3 +16,23 @@
     font-size: 20px;
     margin: 26px auto 50px auto;
 }
+
+@media (max-width: 768px) {
+    .guides-description {
+        display: flex;
+        justify-content: center;
+    }
+
+    .guides-description__inner {
+        max-width: 500px;
+    }
+
+    .guides-description__title {
+        font-size: 30px;
+        
+    }
+
+    .guides-description__paragraph {
+        margin: 16px auto 25px auto;
+    }
+}
