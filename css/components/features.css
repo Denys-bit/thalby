@@ -68,3 +68,38 @@
     text-align: center;
     padding-top: 26px;
 }
+
+@media (max-width: 768px) {
+    .features__item {
+        padding-top: 0;
+        margin-bottom: 35px;
+    }
+
+    .features__item:nth-child(3n) {
+        margin-right: 0;
+    }
+
+    .features__item:nth-child(3n+1) {
+        margin-left: 0;
+    }
+
+    .features {
+        margin-top: 100px;
+        padding-bottom: 56px;
+    }
+
+    .features__title {
+        max-width: 450px;
+        font-size: 24px;
+    }
+
+    .features__items {
+        margin-top: 35px;
+    }
+
+    .features__item-title {
+        font-size: 20px;
+        max-width: 210px;
+        padding-top: 26px;
+    }
+}
