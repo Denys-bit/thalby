@@ -111,3 +111,21 @@
         padding-top: 40px;
     }
 }
+
+@media (max-width: 390px) {
+    .guides-category__text {
+        padding-right: 15px;
+    }
+
+    .guides-category__text--right {
+        padding-left: 0;
+    }
+
+    .guides-category__description {
+        padding-top: 22px;
+    }
+
+    .guides-category__button {
+        padding-top: 24px;
+    }
+}
