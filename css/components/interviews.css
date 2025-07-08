@@ -108,3 +108,17 @@
         font-size: 16px;
     }
 }
+
+@media (max-width: 390px) {
+    .interviews__title {
+        font-size: 24px;
+    }
+
+    .interviews__card-title {
+        font-size: 18px;
+    }
+
+    .interviews__card-bio {
+        font-size: 16px;
+    }
+}
