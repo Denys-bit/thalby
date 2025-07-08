@@ -3,6 +3,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin-bottom: 90px;
 }
 
 .feedback-form__title {}
@@ -40,11 +41,30 @@
 
 .feedback-form__button {
     margin-top: 16px;
-    margin-bottom: 90px;
     padding: 7px 23px 10px 23px;
     background-color: #000000;
     color: #FFFFFF;
     border: none;
     border-radius: 100px;
     font-size: 14px;
+}
+
+@media (max-width: 390px) {
+    .feedback-form__title {
+        font-size: 24px;
+    }
+
+    .feedback-form__subtitle {
+        font-size: 16px;
+    }
+
+    .feedback-form__input:nth-child(1) {
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .feedback-form__input:nth-child(2) {
+        margin-top: 18px;
+        width: 100%;
+    }
 }
